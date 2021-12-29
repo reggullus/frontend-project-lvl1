@@ -21,4 +21,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}≈
-        run: make lint
+      - name: Run linter
+        # Run Linter
+        run: |
+          make lint
