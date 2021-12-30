@@ -1,6 +1,8 @@
-name: nodejs CI
+name: nodejs
 
-on: [push]
+on:
+  - push
+  - pull_request
 
 jobs:
   build:
@@ -9,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [17.x]
+        node-version: [16.x]
 
     steps:
       - uses: actions/checkout@v2
