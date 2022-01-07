@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import game from '../src/gm.js';
+import { rules, answer } from '../src/games/even.game.js';
+import logGame from '../src/index.js';
 
-console.log(game());
+logGame(rules, answer);
