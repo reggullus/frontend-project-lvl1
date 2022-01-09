@@ -1,8 +1,7 @@
 name: nodejs
 on:
   - push
-  - pull_request
-	
+  - pull_request	
 jobs:
   build:
     runs-on: macos-10.15
