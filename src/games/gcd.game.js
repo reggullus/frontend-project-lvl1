@@ -20,5 +20,4 @@ const answer = () => {
   };
   return [question, `${correctAnswer()}`];
 };
-console.log(rules, answer());
 export { rules, answer };
