@@ -4,4 +4,5 @@
 [![.github/workflows/nodejs.yml](https://github.com/reggullus/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/reggullus/frontend-project-lvl1/actions/workflows/nodejs.yml)
 https://asciinema.org/a/w6w7I6pTAy856N7rBf5kyugkQ
 https://asciinema.org/a/UPFxAd2nlrIcInpOQbw2wJHBA
-https://asciinema.org/a/yRXBORJRV5LwwnhVQHYBDS82G
+https://asciinema.org/a/CFSnFu7CScExrGuiMWG7hp9rN
+https://asciinema.org/a/ma1JMgGOo3WYoX39v1z9wUt5T
