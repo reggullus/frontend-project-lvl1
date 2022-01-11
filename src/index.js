@@ -8,7 +8,7 @@ const logGame = (rules, info) => {
 
   for (let i = 1; i <= 3; i += 1) {
     const [quNum, answer] = info();
-    const userAnswer = readlineSync.question(`Question: ${quNum} `);
+    const userAnswer = readlineSync.question(`Question: ${quNum}\nYour answer: `);
     if (userAnswer !== answer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'`);
       console.log(`Let's try again, ${userName}!`);
