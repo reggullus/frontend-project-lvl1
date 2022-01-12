@@ -10,9 +10,9 @@ const answer = () => {
   for (let i = 0; i < 10; i += 1) {
     result += index;
     if (i === hidedIndex) {
-      questionStr += ', ..';
+      questionStr += ' ..';
       answerStr += `${result}`;
-    } else questionStr += `, ${result}`;
+    } else questionStr += ` ${result}`;
   }
   return [questionStr, answerStr];
 };
