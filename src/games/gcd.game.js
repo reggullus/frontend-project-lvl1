@@ -8,7 +8,7 @@ const answer = () => {
   const correctAnswer = () => {
     let x = a;
     let y = b;
-    while (x && y) {
+    while (x !== 0 && y !== 0) {
       if (x > y) {
         x %= y;
       } else {
