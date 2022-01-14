@@ -1,16 +1,16 @@
-import _ from 'lodash';
+import randomNum from '../randomNum.js';
 
-const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const answer = () => {
-  const quNum = _.random(1, 100);
+const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const gameData = () => {
+  const qustionNum = randomNum(1, 100);
   const correctAnswer = () => {
-    for (let i = 2; i < quNum; i += 1) {
-      if (quNum % i === 0) {
+    for (let i = 2; i < qustionNum; i += 1) {
+      if (qustionNum % i === 0) {
         return 'no';
       }
     }
     return 'yes';
   };
-  return [quNum, correctAnswer()];
+  return [qustionNum, correctAnswer()];
 };
-export { rules, answer };
+export { rule, gameData };

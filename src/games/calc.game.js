@@ -1,15 +1,15 @@
-import _ from 'lodash';
+import randomNum from '../randomNum.js';
 
-const rules = 'What is the result of the expression?';
+const rule = 'What is the result of the expression?';
 
-const answer = () => {
+const gameData = () => {
   const operator = '-+*';
-  const randomOper = operator[_.random(0, operator.length - 1)];
-  const a = _.random(1, 10);
-  const b = _.random(1, 10);
-  const question = `${a} ${randomOper} ${b}`;
+  const randomOperator = operator[randomNum(0, operator.length - 1)];
+  const a = randomNum(1, 10);
+  const b = randomNum(1, 10);
+  const question = `${a} ${randomOperator} ${b}`;
   const correctAnswer = () => {
-    switch (randomOper) {
+    switch (randomOperator) {
       case '-':
         return a - b;
       case '+':
@@ -20,4 +20,4 @@ const answer = () => {
   };
   return [question, `${correctAnswer()}`];
 };
-export { rules, answer };
+export { rule, gameData };

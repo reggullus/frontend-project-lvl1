@@ -1,11 +1,11 @@
-import _ from 'lodash';
+import randomNum from '../randomNum.js';
 
-const rules = 'What number is missing in the progression?';
-const answer = () => {
-  const index = _.random(1, 5);
-  const hidedIndex = _.random(1, 9);
+const rule = 'What number is missing in the progression?';
+const gameData = () => {
+  const index = randomNum(1, 5);
+  const hidedIndex = randomNum(1, 9);
   let answerStr = '';
-  let result = _.random(1, 100);
+  let result = randomNum(1, 100);
   let questionStr = `${result}`;
   for (let i = 0; i < 10; i += 1) {
     result += index;
@@ -16,4 +16,4 @@ const answer = () => {
   }
   return [questionStr, answerStr];
 };
-export { rules, answer };
+export { rule, gameData };

@@ -1,9 +1,9 @@
-import _ from 'lodash';
+import randomNum from '../randomNum.js';
 
-const rules = 'Find the greatest common divisor of given numbers.';
-const answer = () => {
-  const a = _.random(1, 50);
-  const b = _.random(1, 50);
+const rule = 'Find the greatest common divisor of given numbers.';
+const gameData = () => {
+  const a = randomNum(1, 50);
+  const b = randomNum(1, 50);
   const question = `${a} ${b}`;
   const correctAnswer = () => {
     let x = a;
@@ -20,4 +20,4 @@ const answer = () => {
   };
   return [question, `${correctAnswer()}`];
 };
-export { rules, answer };
+export { rule, gameData };
