@@ -4,8 +4,8 @@ const gameLogic = (rule, info) => {
   const userName = readlineSync.question('Welcome to the Brain Games!\nMay I have your name? ');
   console.log(`Hello, ${userName} !`);
   console.log(rule);
-  const gameLevel = 3;
-  for (let i = 1; i <= gameLevel; i += 1) {
+  const gameCycleCount = 3;
+  for (let i = 1; i <= gameCycleCount; i += 1) {
     const [questionNum, correctAnswer] = info();
     const userAnswer = readlineSync.question(`Question: ${questionNum}\nYour answer: `);
     if (userAnswer !== correctAnswer) {

@@ -2,13 +2,29 @@
 [![Actions Status](https://github.com/reggullus/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/reggullus/frontend-project-lvl1/actions)
 <a href="https://codeclimate.com/github/reggullus/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/fa7cdd9c8d91ff1b335f/maintainability" /></a>
 [![.github/workflows/nodejs.yml](https://github.com/reggullus/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/reggullus/frontend-project-lvl1/actions/workflows/nodejs.yml)
+
+### Brain Games is a set of five console games. Each game asks questions that need to be answered correctly. After three correct answers the game ends. Wrong answers end the game and ask you to play it again.
+
+### Brain-games:
+
+1. brain-even : Determination of an even number.
+2. brain-calc : Calculator. Arithmetic expressions to be evaluated.
+3. brain-gsd : Determination of the greatest common divisor.
+4. brain-progression : Progression. Finds missing numbers in a sequence of numbers.
+5. brain- prime : Determination of a prime number.
+
+### For installation:
+
+Clone this repository
+Run the command: make install
+
 ### project installation and start of the brain-even game
-https://asciinema.org/a/pCVigLCh5tH2inBE9gAMYuvwy
+[![asciicast](https://asciinema.org/a/fUAU2iGLxOpDPbXhKZWaZ2929.svg)](https://asciinema.org/a/fUAU2iGLxOpDPbXhKZWaZ2929)
 ### start of the brain-calc game
-https://asciinema.org/a/UPFxAd2nlrIcInpOQbw2wJHBA
+[![asciicast](https://asciinema.org/a/yRHMnLn6KzPLycuh4Mdmpswoq.svg)](https://asciinema.org/a/yRHMnLn6KzPLycuh4Mdmpswoq)
 ### start of the brain-gcd game
-https://asciinema.org/a/CFSnFu7CScExrGuiMWG7hp9rN
+[![asciicast](https://asciinema.org/a/CFSnFu7CScExrGuiMWG7hp9rN.svg)](https://asciinema.org/a/CFSnFu7CScExrGuiMWG7hp9rN)
 ### start of the brain-progression game
-https://asciinema.org/a/ma1JMgGOo3WYoX39v1z9wUt5T
+[![asciicast](https://asciinema.org/a/ma1JMgGOo3WYoX39v1z9wUt5T.svg)](https://asciinema.org/a/ma1JMgGOo3WYoX39v1z9wUt5T)
 ### start of the brain-prime game
-https://asciinema.org/a/26bm1uKGoJr3irz7GRBgxXoeh
+[![asciicast](https://asciinema.org/a/26bm1uKGoJr3irz7GRBgxXoeh.svg)](https://asciinema.org/a/26bm1uKGoJr3irz7GRBgxXoeh)

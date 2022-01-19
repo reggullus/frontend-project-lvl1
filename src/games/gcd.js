@@ -1,4 +1,5 @@
 import randomNum from '../randomNum.js';
+import gameLogic from '../index.js';
 
 const rule = 'Find the greatest common divisor of given numbers.';
 const greatestDivisor = (a, b) => {
@@ -14,11 +15,12 @@ const greatestDivisor = (a, b) => {
   x += y;
   return x;
 };
-const gameData = () => {
+const getGameData = () => {
   const a = randomNum(1, 50);
   const b = randomNum(1, 50);
   const question = `${a} ${b}`;
   const correctAnswer = greatestDivisor(a, b);
   return [question, `${correctAnswer}`];
 };
-export { rule, gameData };
+const playGcdGame = () => gameLogic(rule, getGameData);
+export default playGcdGame;
