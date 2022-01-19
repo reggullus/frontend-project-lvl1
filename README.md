@@ -15,16 +15,16 @@
 
 ### For installation:
 
-Clone this repository
+Clone this repository &
 Run the command: make install
 
 ### project installation and start of the brain-even game
-[![asciicast](https://asciinema.org/a/fUAU2iGLxOpDPbXhKZWaZ2929.svg)](https://asciinema.org/a/fUAU2iGLxOpDPbXhKZWaZ2929)
+[![asciicast](https://asciinema.org/a/NjLWSkY6JMXYn0wU7Xjq9Xjy4.svg)](https://asciinema.org/a/NjLWSkY6JMXYn0wU7Xjq9Xjy4)
 ### start of the brain-calc game
-[![asciicast](https://asciinema.org/a/yRHMnLn6KzPLycuh4Mdmpswoq.svg)](https://asciinema.org/a/yRHMnLn6KzPLycuh4Mdmpswoq)
+[![asciicast](https://asciinema.org/a/FKUzliFUplTOEJjrRAawpiSsS.svg)](https://asciinema.org/a/FKUzliFUplTOEJjrRAawpiSsS)
 ### start of the brain-gcd game
-[![asciicast](https://asciinema.org/a/CFSnFu7CScExrGuiMWG7hp9rN.svg)](https://asciinema.org/a/CFSnFu7CScExrGuiMWG7hp9rN)
+[![asciicast](https://asciinema.org/a/82LVTh3Y7hgan2XwuX9bfandq.svg)](https://asciinema.org/a/82LVTh3Y7hgan2XwuX9bfandq)
 ### start of the brain-progression game
-[![asciicast](https://asciinema.org/a/ma1JMgGOo3WYoX39v1z9wUt5T.svg)](https://asciinema.org/a/ma1JMgGOo3WYoX39v1z9wUt5T)
+[![asciicast](https://asciinema.org/a/AMSUDJTzCcSW5DOPOCoCSXKdR.svg)](https://asciinema.org/a/AMSUDJTzCcSW5DOPOCoCSXKdR)
 ### start of the brain-prime game
-[![asciicast](https://asciinema.org/a/26bm1uKGoJr3irz7GRBgxXoeh.svg)](https://asciinema.org/a/26bm1uKGoJr3irz7GRBgxXoeh)
+[![asciicast](https://asciinema.org/a/lefuoQYNIm0R7IKdn0PiTfvI5.svg)](https://asciinema.org/a/lefuoQYNIm0R7IKdn0PiTfvI5)
