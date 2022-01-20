@@ -13,7 +13,7 @@ const getExpression = (a, b, randomOperator) => {
     case '*':
       return a * b;
     default:
-      return (`Unknown randomOperator : '${randomOperator}'!`);
+      throw new Error(`Unknown randomOperator : '${randomOperator}'!`);
   }
 };
 const getGameData = () => {
